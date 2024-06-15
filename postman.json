@@ -1,8 +1,9 @@
 {
   "info": {
-    "_postman_id": "12345678-abcd-efgh-ijkl-1234567890ab",
-    "name": "Prisma Express API",
-    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    "_postman_id": "ca228f74-534a-46df-ac35-08b90489ac75",
+    "name": "postgres-prisma-demo",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "30661629"
   },
   "item": [
     {
@@ -29,7 +30,8 @@
               "port": "3000",
               "path": ["users"]
             }
-          }
+          },
+          "response": []
         },
         {
           "name": "Update User",
@@ -52,12 +54,14 @@
               "port": "3000",
               "path": ["users", "1"]
             }
-          }
+          },
+          "response": []
         },
         {
           "name": "Delete User",
           "request": {
             "method": "DELETE",
+            "header": [],
             "url": {
               "raw": "http://localhost:3000/users/1",
               "protocol": "http",
@@ -65,12 +69,14 @@
               "port": "3000",
               "path": ["users", "1"]
             }
-          }
+          },
+          "response": []
         },
         {
           "name": "Get All Users",
           "request": {
             "method": "GET",
+            "header": [],
             "url": {
               "raw": "http://localhost:3000/users",
               "protocol": "http",
@@ -78,12 +84,14 @@
               "port": "3000",
               "path": ["users"]
             }
-          }
+          },
+          "response": []
         },
         {
           "name": "Get User by ID",
           "request": {
             "method": "GET",
+            "header": [],
             "url": {
               "raw": "http://localhost:3000/users/1",
               "protocol": "http",
@@ -91,7 +99,8 @@
               "port": "3000",
               "path": ["users", "1"]
             }
-          }
+          },
+          "response": []
         }
       ]
     },
@@ -119,7 +128,8 @@
               "port": "3000",
               "path": ["addresses"]
             }
-          }
+          },
+          "response": []
         },
         {
           "name": "Update Address",
@@ -142,12 +152,14 @@
               "port": "3000",
               "path": ["addresses", "1"]
             }
-          }
+          },
+          "response": []
         },
         {
           "name": "Delete Address",
           "request": {
             "method": "DELETE",
+            "header": [],
             "url": {
               "raw": "http://localhost:3000/addresses/1",
               "protocol": "http",
@@ -155,12 +167,14 @@
               "port": "3000",
               "path": ["addresses", "1"]
             }
-          }
+          },
+          "response": []
         },
         {
           "name": "Get All Addresses",
           "request": {
             "method": "GET",
+            "header": [],
             "url": {
               "raw": "http://localhost:3000/addresses",
               "protocol": "http",
@@ -168,12 +182,14 @@
               "port": "3000",
               "path": ["addresses"]
             }
-          }
+          },
+          "response": []
         },
         {
           "name": "Get Address by ID",
           "request": {
             "method": "GET",
+            "header": [],
             "url": {
               "raw": "http://localhost:3000/addresses/1",
               "protocol": "http",
@@ -181,7 +197,8 @@
               "port": "3000",
               "path": ["addresses", "1"]
             }
-          }
+          },
+          "response": []
         }
       ]
     }
