@@ -1,5 +1,5 @@
 {
-  "name": "user-management-system-postgress-demo",
+  "name": "postgres-prisma-demo",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",

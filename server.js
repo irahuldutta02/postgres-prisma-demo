@@ -128,6 +128,8 @@ app.put("/addresses/:id", async (req, res) => {
         city,
         state,
         zip,
+        type,
+        address1,
       },
     });
     res.json(address);
