@@ -119,7 +119,7 @@ app.post("/addresses", async (req, res) => {
 // Update an existing address
 app.put("/addresses/:id", async (req, res) => {
   const { id } = req.params;
-  const { street, city, state, zip } = req.body;
+  const { street, city, state, zip, type, address1 } = req.body;
   try {
     const address = await prisma.address.update({
       where: { id: Number(id) },

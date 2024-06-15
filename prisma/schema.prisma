@@ -18,10 +18,10 @@ model User {
 model Address {
   id       Int     @id @default(autoincrement())
   address1 String?
-  street   String
+  street   String?
   city     String
   state    String
   zip      String
-  type     String?
+  type     String
   users    User[]
 }
